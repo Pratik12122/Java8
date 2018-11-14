@@ -42,9 +42,6 @@ public class Dog {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
-
-	
-
 	
 	static List<Dog> getDoglist() {
 		List<Dog> resultList = new ArrayList<>();

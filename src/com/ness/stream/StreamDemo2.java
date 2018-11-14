@@ -10,7 +10,6 @@ public class StreamDemo2 {
 			Stream.iterate(0, e -> e+1);
 			// generate 
 			
-			
 			//distinct
 			Stream<String> uniqueWords
 			   = Stream.of("merrily", "merrily", "merrily", "gently");
